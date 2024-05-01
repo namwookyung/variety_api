@@ -16,7 +16,7 @@ app.post("/", (req, res, next) => {
   res.json({message: "Hello World! Post!"});
 });
 
-// require("./app/routes/login/login.routes.js")(app);
+// require("./routes/login/login.routes.js")(app);
 
 // Port Setting
 app.listen(3001, () => {
